@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <style>
+        main{
+            background-color: darkgoldenrod;
+        }
+        header {
+            background-color: brown;
+        }
+        footer {
+            background-color: rgb(65, 27, 231);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Trabalhando com listas</h1>
+        <h2>Listas ordenadas:</h2>
+        <!--Listas ordenadas: Também funciona para a tag ol-->
+        <ol>
+            <li type="1">Valor padrão. Cria listas numeradas. Ex: 1, 2, 3, 4, ...</li>
+            <li type="A">Cria listas alfabéticas em maiúsculas. Ex: A, B, C, D, ...</li>
+            <li type="a">Cria listas alfabéticas em minúsculas. Ex: a, b, c, d, ...</li>
+            <li type="I">Cria listas com algarismos romanos em maiúsculas. Ex: I, II, III, IV, ...</li>
+            <li type="i">Cria listas com algarismos romanos em minúsculas. Ex: i, ii, iii, iv, ...</li>
+        </ol>
+        <ol type="i">
+            <li>Acordar;</li>
+            <li>Ligar para o João;</li>
+            <li>Tomar café;</li>
+            <li>Escovar os dentes;</li>
+            <li>Ir para a faculdade;</li>
+            <li>Almoçar;</li>
+            <li>Ir para o trabalho;</li>
+            <li>Voltar para casa;</li>
+            <li>Jantar;</li>
+            <li>Dormir;</li>
+        </ol>
+        <h2>Listas não ordenadas</h2>
+        <ul>
+            <li type="cicle">Uma bola com uma borda preta e sem preenchimento ;</li>
+            <li type="square">Um pequeno quadrado preto totalmente pintado;</li>
+            <li type="disc">Uma bola preta totalmente pintada;</li>
+        </ul>
+        <ul>
+            <li>Pão</li>
+            <li>Leite</li>
+            <li>Tomate</li>
+            <li>Alface</li>
+            <li>Manteiga</li>
+            <li>Arroz</li>
+            <li>Feijão</li>
+        </ul>
+    </header>
+    <main>
+    <h2>Minhas linguagens favoritas:</h2>
+    <ol>
+        <li>Antigas:</li>
+        <ol type="a">
+            <li>Clipper;</li>
+            <li>Visual Basic;</li>
+            <li>Fortran;</li>
+            <li>Delphi;</li>
+        </ol>  
+    </ol>
+    <ol start="2">
+        <li>Novas:</li>
+        <ol type="a" start="5">
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+            <li>PHP</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos:</h2>
+    <ol>
+        <li>NES:</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES:</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation:</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    </main>
+    <footer>
+        <h2>Lista de Definições:</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação utilizada para criar conteúdo de sites.</dd>
+    
+            <dt>CSS</dt>
+            <dd>Linguagem de marcação para especificação  de estilos em sites.</dd>
+    
+            <dt>JavaScript</dt>
+            <dd>Linguagem de programação para criar interatividades em sites.</dd>
+        </dl>
+    </footer>
+</body>
+</html>
